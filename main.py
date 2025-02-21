@@ -112,7 +112,7 @@ def get_location_degree(location):
     loc_radians = np.arctan2(targ_y, targ_x)
     return np.degrees(loc_radians) % 360
 
-# Main application function for the firing rate plotting app
+# Streamlit application entry point 
 def app():
     # Set up the Streamlit page configuration and title
     st.set_page_config(page_title="FineEffect")
